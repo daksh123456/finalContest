@@ -1,0 +1,181 @@
+.image-div{
+    margin-top: 0%;
+    margin: 1%;
+    /* margin-left: ; */
+}
+.div-1{
+    margin-left: 2%;
+}
+.div-1{
+    margin-right: 3%;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom : 1px solid rgb(189, 189, 189) ;
+}
+
+.main{
+    display: flex;
+    margin: 1%;
+    flex-direction: row;
+}
+.left-side{
+    margin: 1%;
+    width: 50vw;
+    height: 80vh;
+    /* background-color: bisque; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.right-side{
+    border-left: 1px solid rgb(187, 186, 186);
+    margin: 1%;
+    width: 50vw;
+    height: 80vh;
+    overflow-y: auto;
+    /* background-color: brown; */
+}
+
+.modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 35vh;
+    /* background-color: aqua; */
+}
+
+.modal-row-div{
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 3%;
+    /* background-color: blueviolet;  */
+    width: 29vw; 
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-text-pp{
+    /* margin: 2%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* background-color: brown;  */
+    width: 28vw; 
+    height: 22vh;
+}
+
+.profile-pic{
+    margin: 1%;
+    /* background-color: darkolivegreen; */
+    width:3vw;
+    height: 22vh;
+}
+.text-area{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    /* background-color: darksalmon; */
+    /* setContent */
+    /* border: 1px solid rgb(185, 185, 185); */
+    /* margin: 5%; */
+    /* border-radius: 3%; */
+    width: 25vw;
+    height: 20vh;
+}
+
+.char-count-post-btn{
+    margin: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: yellow;  */
+    width: 28vw; 
+    height: 4vh;
+}
+
+.char-counter{
+    margin: 3%;
+}
+
+.post-btn-div{
+    margin: 3%;
+}
+.post-btn{
+    font-size: large;
+    font-weight: 700;
+    color:white;
+    border-radius: 4%;
+    width: 7vw;
+    height: 5vh;
+    border: 1px solid transparent;
+    background-color: rgb(54, 67, 252);
+}
+.post-btn:hover{
+    transition: 0.3s;
+    background-color: rgb(20, 35, 252);
+}
+
+
+.right-side::-webkit-scrollbar {
+    margin: 5px;
+    width: 8px; /* Set the width of the scrollbar */
+}
+
+.right-side::-webkit-scrollbar-thumb {
+    background-color: #5179fa; /* Set the color of the thumb */
+    border-radius: 6px; /* Optional: Add rounded corners to the thumb */
+}
+
+.right-side::-webkit-scrollbar-track {
+    background-color: #eee; /* Set the color of the track */
+}
+.tweet-cont{
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 3%;
+    margin: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: blueviolet;  */
+    width: 25vw; 
+    height: 25vh;
+}
+
+.navbar2{
+    margin: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 20vw;
+    align-items: center;
+    /* border-bottom : 1px solid rgb(189, 189, 189) ; */
+}
+.icons{
+    width: 6vw;
+    /* height: 4vw; */
+}
+.icon1{
+    /* margin-right: 2%; */
+    width: 2vw;
+    height: 3vh;
+}
+
+.icon2{
+    width: 2vw;
+    height: 3vh;
+}
+
+/* .nav-tweet-container{
+    display: flex;
+    width: 20vw;
+    height: 15vh;
+} */
